@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HOTEL</title>
+<style>
+
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 15px;
+  color:black;
+  text-align: center;
+}
+
+.content {
+  padding: 5px;
+    border: none;
+    background-color: pink;
+    font-family: Helvetica;
+    color: black;
+    margin: 0px;
+    height: 200px;
+    overflow: auto;
+}
+section {
+  position: relative;
+  width: 100%;
+  padding: 15px;
+}
+p {
+  position: relative;
+  clear: right;
+}
+div {
+  position: relative;
+    background-color: pink;
+    border: 1px solid black;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    width: 33.33%;
+  }
+}
+
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6{
+    float: left;
+    width: 50%;
+  }
+  .col-md-12{
+    float: left;
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px){
+  .col-sm-12 {
+    float: left;
+    width: 100%;
+  }
+}
+#p1 {
+  float: right;
+    width: 100px;
+    padding: 5px;
+    margin: 0px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: green;
+}
+#p2 {
+  float: right;
+    color: black;
+    width: 100px;
+    padding: 5px;
+    margin: 0px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: blue; 
+}
+#p3 {
+  color: black;
+    float: right;
+    width: 100px;
+    padding: 5px;
+    margin: 0px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: orange;
+}
+</style>
+</head>
+<body>
+<h1>Our Menu</h1>
+  <section class="col-lg-4 col-md-6 col-sm-12">
+    <div>
+      <p id="p1">Soup</p>
+      <p class="content">
+        Welcome to our restaurant.This is one of the famous vegetarian restaurant of Magarpatta loction.
+        Paneer Tikka is the one of the most favourite starters of our customers. It is really good in taste.
+        There are various other starters which tastes really good including our soup. But we will
+        recommend our customers to atleast, once try our soup.
+      </p> 
+    </div>
+  </section>
+  <section class="col-lg-4 col-md-6 col-sm-12">
+    <div>
+      <p id="p2">Pav Bhaji</p>
+      <p class="content">
+        Welcome to our restaurant.This is one of the famous vegetarian restaurant of Magarpatta loction.
+        Pav Bhaji is the one of the most favourite dish of our customers. It is spicy in taste.
+        There are various other dishes which tastes really good including pav bhaji. But we will
+        recommend our customers to atleast, once try our pav bhaji.
+      </p> 
+    </div>
+  </section>
+  <section class="col-lg-4 col-md-12 col-sm-12">
+    <div>
+      <p id="p3">Veg Thali</p>
+      <p class="content">
+        Welcome to our restaurant.This is one of the famous vegetarian restaurant of Magarpatta loction.
+        Veg Thali is the one of the most favourite item in our menu. It is delicious in taste.
+        It costs Rupee 300 only and it is unlimited. Many of our coustomers come here to specially have 
+        special thali .So we will recommend our customers to atleast, once try our Veg thali.
+      </p> 
+    </div>
+  </section>
+
+</body>
+</html>
