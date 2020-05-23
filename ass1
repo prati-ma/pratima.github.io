@@ -105,12 +105,15 @@ div {
     border: 1px solid black;
     text-align: center;
     font-size: 125%;
+    
     font-weight: bold;
+    
     background-color: orange;
 }
 </style>
 </head>
 <body>
+
 <h1>Our Menu</h1>
   <section class="col-lg-4 col-md-6 col-sm-12">
     <div>
@@ -144,9 +147,7 @@ div {
         special thali .So we will recommend our customers to atleast, once try our Veg thali.
       </p> 
     </div>
-    
   </section>
 
 </body>
-
 </html>
